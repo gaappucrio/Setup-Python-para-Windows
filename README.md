@@ -63,6 +63,37 @@ Rode o comando abaixo e siga as instruções na tela, selecionando HTTPS ou SSH 
 ```powershell
 gh auth login
 ```
+[⚠] Caso peça para você colar seu token de acesso invés de logar pelo navegador:
+Passo a Passo para gerar o Token:
+Se você escolheu a opção de colar um token, precisará gerá-lo no site do GitHub:
+
+Acesse o GitHub pelo navegador e faça login na sua conta.
+
+No canto superior direito, clique na sua foto de perfil e vá em Settings (Configurações).
+
+Role o menu lateral esquerdo até o final e clique em Developer settings.
+
+No menu lateral esquerdo, clique em Personal access tokens e depois em Tokens (classic).
+
+Clique no botão Generate new token (no canto superior direito) e escolha Generate new token (classic).
+
+Preencha os detalhes:
+
+Note: Dê um nome para lembrar onde está usando (ex: CLI Windows Terminal).
+
+Expiration: Escolha a validade (ex: 30 dias ou sem expiração, mas por segurança é bom ter uma data).
+
+Select scopes: Marque as caixas repo, read:org e gist (são as permissões necessárias para o CLI funcionar perfeitamente).
+
+Role até o final da página e clique em Generate token.
+
+Copie o token gerado (ele começa com ghp_ e só aparecerá nesta vez, então não feche a página antes de copiar).
+
+Volte para o seu PowerShell e cole o token pressionando o botão direito do mouse ou Ctrl + V. Aperte Enter.
+
+Após isso, o seu terminal estará oficialmente logado e conectado ao seu GitHub!
+**Dica extra:** Na hora de colar o token no PowerShell, a tela pode não mostrar nenhum caractere (nem asteriscos) por questões de segurança do Windows. É só colar e dar `Enter` normalmente que vai funcionar!
+
 Configurando seu nome e email no git:
 
 ```powershell
