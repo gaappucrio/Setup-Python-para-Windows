@@ -173,7 +173,7 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-[!NOTE]
+[📝]
 Quando o ambiente estiver ativo, você verá um (.venv) verde no início do prompt do seu PowerShell. Para sair do ambiente, basta digitar:
 ```powershell
 deactivate
