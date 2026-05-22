@@ -53,7 +53,7 @@ winget install --id Git.Git -e --source winget
 winget install --id GitHub.cli -e --source winget
 ```
 [⚠]
-Se o terminal pedir permissão para aceitar os termos de contrato da Microsoft, digite "Y" e pressione Enter.
+Se o terminal pedir permissão para aceitar os termos de contrato da Microsoft, aceite as permissoões.
 
 Após a instalação, feche o terminal e abra um novo para carregar as variáveis de ambiente.
 
