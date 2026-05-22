@@ -111,7 +111,7 @@ winget install -e --id Microsoft.VisualStudioCode
 ```
 Ou baixe diretamente pelo site oficial: https://code.visualstudio.com/download
 
-[!IMPORTANT]
+[🔺]
 Feche e abra o terminal para garantir que o comando code está funcionando.
 
 Melhorando a Experiência no VSCode
